@@ -2,7 +2,7 @@
 
 A reference of code smells and heuristics listed in Martin Fowler's Refactoring and Uncle Bob's Clean Code.
 
-# Comments
+## Comments
 
 C1: Inappropriate Information Reserve comments for technical notes referring to code and design.  
 C2: Obsolete Comment Update or delete obsolete comments.  
@@ -10,19 +10,19 @@ C3: Redundant Comment A redundant comment describes something able to sufficient
 C4: Poorly Written Comment Comments should be brief, concise, correctly spelled.  
 C5: Commented-Out Code Ghost code. Delete it.
 
-# Environment
+## Environment
 
 E1: Build Requires More Than One Step Builds should require one command to check out and one command to run.  
 E2: Tests Require More Than One Step Tests should be run with one button click through an IDE, or else with one command.
 
-# Functions
+## Functions
 
 F1: Too Many Arguments Functions should have no arguments, then one, then two, then three. No more than three.  
 F2: Output Arguments Arguments are inputs, not outputs. If somethings state must be changed, let it be the state of the called object.  
 F3: Flag Arguments Eliminate boolean arguments.  
 F4: Dead Function Discard uncalled methods. This is dead code.
 
-# General
+## General
 
 G1: Multiple Languages in One Source File Minimize the number of languages in a source file. Ideally, only one.  
 G2: Obvious Behavior is Unimplemented The result of a function or class should not be a surprise.  
@@ -61,7 +61,7 @@ G34: Functions Should Descend Only One Level of Abstraction The toughest heurist
 G35: Keep Configurable Data at High Levels High level constants are easy to change.  
 G36: Avoid Transitive Navigation Write shy code. Modules should only know about their neighbors, not their neighbor's neighbors.
 
-# Names
+## Names
 
 N1: Choose Descriptive Names Choose names that are descriptive and relevant.  
 N2: Choose Names at the Appropriate Level of Abstraction Think of names that are still clear to the user when used in different programs.  
@@ -71,7 +71,7 @@ N5: Use Long Names for Long Scopes A name's length should relate to its scope.
 N6: Avoid Encodings No not encode names with type or scope information.  
 N7: Names Should Describe Side-Effects Consider the side-effects of your function, and include that in its name.
 
-# Tests
+## Tests
 
 T1: Insufficient Tests Test everything that can possibly break  
 T2: Use a Coverage Tool! Use your IDE as a coverage tool.  
