@@ -1,6 +1,6 @@
 # Clean-Code-Smells-and-Heuristics
 
-A reference of code smells and heuristics listed in Martin Fowler's Refactoring and Uncle Bob's Clean Code.
+Taken from Uncle Bob's Clean Code.
 
 ## Comments
 
