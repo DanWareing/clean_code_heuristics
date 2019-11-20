@@ -82,3 +82,10 @@ T6: Exhaustively Test Near Bugs Bugs are rarely alone. When you find one, look n
 T7: Patterns of Failure Are Revealing Test cases ordered well will reveal patterns of faiure.  
 T8: Test Coverage Patterns Can Be Revealing Similarly, look at the code that is or is not passed in a failure.  
 T9: Tests Should Be Fast Slow tests won't get run.
+
+## Java
+
+@TODO: Investigate which are applicable to Apex, and create some new Apex rules
+J1: Avoid Long Import Lists By Using Wildcards
+J2: Don't Inherit Constants
+J3: Constants Versus Enums
