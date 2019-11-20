@@ -1,4 +1,4 @@
-# Clean-Code-Smells-and-Heuristics
+# Clean Code: Smells and Heuristics
 
 Taken from Uncle Bob's Clean Code.
 
